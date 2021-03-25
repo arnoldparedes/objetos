@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Comentarios de una linea</h1>
+<p id="var1"></p>
+<p id="var2"></p>
+<p id="var3"></p>
+<p id="var4"></p>
+<p id="var5"></p>
+<h1>Comentarios de multiples lineas</h1>
+
+<p id="resultado"></p>
+
+    </body>
+    <script>
+        //comentarios de una sola linea.
+
+        var a = 50; // Este es el primer comentario de una sola linea.
+        document.getElementById("var1").innerHTML = a; //Imprimimos la variable a.
+
+        var b = 43 * 3; // 
+        document.getElementById("var2").innerHTML = b;
+
+        var c = (32/2)*4;
+        document.getElementById("var3").innerHTML = c;
+
+        var d = "Hola Como Estas?";
+        document.getElementById("var4").innerHTML = d;
+
+        var e = "En Next University se aprende javascript";
+        document.getElementById("var5").innerHTML = e;
+
+        //Comentarios de multiples lineas.
+
+/*
+La funcion resta permite restar dos numeros y devolver el resultado
+*/
+        function resta () {
+            return 4-10;
+
+        }
+        var resultado = resta();
+        document.getElementById("resultado").innerHTML = resultado;
+
+
+
+    </script>
+</html>
